@@ -2,6 +2,8 @@ import { Fragment, Key, lazy, Suspense } from "react";
 import { Route, Routes } from "react-router-dom";
 import EmptyLayout from "../layout/empty-layout";
 import HomeLayout from "../layout/home-layout";
+
+import Layout_02 from "../layout/layout_02";
 import { AuthGuard, ReversGuard } from "./guards";
 
 import SuspenseScreen from "./suspense-screen";
@@ -19,6 +21,19 @@ function Router() {
       path: "/12_events",
       layout: HomeLayout,
       routes: [{ element: lazy(() => import("../pages/12_events")) }],
+    },
+    {
+      path: "/13_event_details_page",
+      layout: Layout_02,
+      routes: [
+        { element: lazy(() => import("../pages/13_event_details_page")) },
+      ],
+    },
+
+    {
+      path: "/13_edit_event",
+      layout: Layout_02,
+      routes: [{ element: lazy(() => import("../pages/13_edit_event")) }],
     },
 
     { path: "*", element: lazy(() => import("./404")) },

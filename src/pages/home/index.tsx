@@ -296,6 +296,13 @@ function index() {
       <Link to="/12_events">
         <div>12_events</div>
       </Link>
+
+      <Link to="/13_event_details_page">
+        <div>13_event_details_page</div>
+      </Link>
+      <Link to="/13_edit_event">
+        <div>13_edit_events</div>
+      </Link>
     </div>
   );
 }

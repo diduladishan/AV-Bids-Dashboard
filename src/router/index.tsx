@@ -32,7 +32,7 @@ function Router() {
 
     {
       path: "/13_edit_event",
-      layout: Layout_02,
+      layout: HomeLayout,
       routes: [{ element: lazy(() => import("../pages/13_edit_event")) }],
     },
 

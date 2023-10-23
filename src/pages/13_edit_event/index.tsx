@@ -45,7 +45,7 @@ export function index() {
         </div>
         <p className="mb-2">Event Description </p>
         <div className="w-96 mb-5">
-          <Textarea label="Message" />
+          <Textarea label="Message" className="bg-[#eeebfb]" />
         </div>
         <p className="mb-2">Event Type </p>
         <div className="w-72 mb-5">

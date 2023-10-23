@@ -16,9 +16,9 @@ function Router() {
       routes: [{ element: lazy(() => import("../pages/home")) }],
     },
     {
-      path: "/11_dashbord",
+      path: "/12_events",
       layout: HomeLayout,
-      routes: [{ element: lazy(() => import("../pages/11_dashbord")) }],
+      routes: [{ element: lazy(() => import("../pages/12_events")) }],
     },
 
     { path: "*", element: lazy(() => import("./404")) },

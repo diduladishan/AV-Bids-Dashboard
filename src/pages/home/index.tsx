@@ -232,18 +232,69 @@ function index() {
       </section>
 
       <section className="bg-[#fff] px-8 py-8 rounded-xl drop-shadow mb-6">
-        <h2 className="text-[20px] font-semibold">Change Password</h2>
+        <h2 className="text-[20px] font-semibold mb-4">Change Password</h2>
 
         <div className="grid grid-cols-1 gap-4">
-          <div>01</div>
+          <div>
+            <p className="mb-2">Current password</p>
+            <div className="w-72">
+              <Input
+                type="password"
+                label="Password"
+                crossOrigin=""
+                className=" bg-[#f0edfb]"
+              />
+            </div>
+          </div>
 
-          <div>02</div>
-          <div>03</div>
+          <div>
+            <p className="mb-2">New Password</p>
+            <div className="w-72">
+              <Input
+                type="password"
+                label="Password"
+                crossOrigin=""
+                className=" bg-[#f0edfb]"
+              />
+            </div>
+          </div>
+          <div>
+            {" "}
+            <p className="mb-2">Confirm New Password</p>
+            <div className="w-72">
+              <Input
+                type="password"
+                label="Password"
+                crossOrigin=""
+                className=" bg-[#f0edfb]"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="flex items-center justify-between mt-4">
+          <Button
+            variant="filled"
+            color="indigo"
+            size="sm"
+            className="rounded-md w-30 py-3 mt-4 px-6 bg-primary font-poppins rounded-full"
+          >
+            <span className="text-white">Delete Account</span>
+          </Button>
+
+          <Button
+            variant="filled"
+            color="indigo"
+            size="sm"
+            className="rounded-md w-30 py-3 mt-4 px-6 bg-primary font-poppins rounded-full"
+          >
+            <span className="text-white">Submit</span>
+          </Button>
         </div>
       </section>
 
-      <Link to="/11_dashbord">
-        <div></div>
+      <Link to="/12_events">
+        <div>12_events</div>
       </Link>
     </div>
   );

@@ -35,28 +35,27 @@ export function index() {
 
       <p className="font-medium text-[18px] mb-4">Event Details</p>
 
-      <div className="grid grid-cols-2 gap-4 font-medium text-[18px] text-[#353535]">
+      <div className="grid grid-cols-2 gap-x-16 gap-y-4 font-medium text-[16px] text-[#353535]">
         <div className="col-span-2">
           <p className="mb-2">Event Title </p>
-          <div className="w-72 mb-5">
+          <div className="mb-5">
             <Input
               label="Ex: 2023 Meeting Expo San Deigo"
               crossOrigin=""
-              className="rounded-md bg-[#eeebfb]"
+              className="rounded-md bg-[#eeebfc]"
             />
           </div>
         </div>
         <div className="col-span-2">
           <p className="mb-2">Event Description </p>
-          <div className="w-96 mb-5">
-            <Textarea label="Message" className="bg-[#eeebfb]" />
+          <div className="mb-5">
+            <Textarea label="Message" className="bg-[#eeebfc]" />
           </div>
         </div>
         <div className="">
-          {" "}
           <p className="mb-2">Event Type </p>
-          <div className="w-72 mb-5">
-            <Select label="In-Person" className="bg-[#eeebfb]">
+          <div className="mb-5">
+            <Select label="In-Person" className="bg-[#eeebfc]">
               <Option>Option 01</Option>
               <Option>Option 02</Option>
               <Option>Option 03</Option>
@@ -66,10 +65,9 @@ export function index() {
           </div>
         </div>
         <div className="">
-          {" "}
           <p className="mb-2">Event Category </p>
-          <div className="w-72 mb-5">
-            <Select label="Coporate" className="bg-[#eeebfb]">
+          <div className="mb-5">
+            <Select label="Coporate" className="bg-[#eeebfc]">
               <Option>Option 01</Option>
               <Option>Option 02</Option>
               <Option>Option 03</Option>
@@ -80,8 +78,8 @@ export function index() {
         </div>
         <div className="">
           <p className="mb-2">Event Sub Category</p>
-          <div className="w-72 mb-5">
-            <Select label="General Meeting" className="bg-[#eeebfb]">
+          <div className=" mb-5">
+            <Select label="General Meeting" className="bg-[#eeebfc]">
               <Option>Option 01</Option>
               <Option>Option 02</Option>
               <Option>Option 03</Option>
@@ -92,8 +90,8 @@ export function index() {
         </div>
         <div className="">
           <p className="mb-2">Event Budget</p>
-          <div className="w-72 mb-8">
-            <Select label="$70,000 - $150,000" className="bg-[#eeebfb]">
+          <div className=" mb-8">
+            <Select label="$70,000 - $150,000" className="bg-[#eeebfc]">
               <Option>Option 01</Option>
               <Option>Option 02</Option>
               <Option>Option 03</Option>
@@ -108,46 +106,46 @@ export function index() {
 
       <p className="font-medium text-[18px] mb-4">Address & Location</p>
 
-      <div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-x-16 gap-y-4 mb-4 font-medium text-[16px] text-[#353535]">
         <div className="">
           <p className="mb-2">Venue Name</p>
-          <div className="w-72 mb-5">
+          <div className="mb-5">
             <Input
               label="Venue Name"
               crossOrigin=""
-              className="rounded-md bg-[#eeebfb] "
+              className="rounded-md bg-[#eeebfc]"
             />
           </div>
         </div>
 
         <div className="...">
           <p className="mb-2">Address</p>
-          <div className="w-72 mb-5">
+          <div className="mb-5">
             <Input
               label="Address"
               crossOrigin=""
-              className="rounded-md bg-[#eeebfb] "
+              className="rounded-md bg-[#eeebfc]"
             />
           </div>
         </div>
       </div>
 
-      <div className="grid grid-cols-3 gap-4 font-medium text-[18px] text-[#353535]">
+      <div className="grid grid-cols-3 gap-x-16 gap-y-4 font-medium text-[16px] text-[#353535]">
         <div className="...">
           <p className="mb-2">City </p>
-          <div className="w-72 mb-5">
+          <div className="mb-5">
             <Input
               label="Enter City"
               crossOrigin=""
-              className="rounded-md bg-[#eeebfb] "
+              className="rounded-md bg-[#eeebfc]"
             />
           </div>
         </div>
 
         <div className="...">
           <p className="mb-2">State</p>
-          <div className="w-72 mb-5">
-            <Select label="Select State" className="bg-[#eeebfb]">
+          <div className="mb-5">
+            <Select label="Select State" className="bg-[#eeebfc]">
               <Option>Option 01</Option>
               <Option>Option 02</Option>
               <Option>Option 03</Option>
@@ -159,11 +157,11 @@ export function index() {
 
         <div className="...">
           <p className="mb-2">Zip</p>
-          <div className="w-72 mb-8">
+          <div className="mb-8">
             <Input
               label="Enter Zip Code"
               crossOrigin=""
-              className="rounded-md bg-[#eeebfb] "
+              className="rounded-md bg-[#eeebfc]"
             />
           </div>
         </div>
@@ -173,7 +171,7 @@ export function index() {
 
       <p className="font-medium text-[18px] mb-4">File Attachment</p>
 
-      <div className="grid grid-cols-2 gap-4 font-medium text-[18px] text-black">
+      <div className="grid grid-cols-2 gap-x-16 gap-y-4 font-medium text-[18px] text-black">
         <div className="flex items-center gap-24">
           <p>guideline and requirements.doc</p>
           <img
